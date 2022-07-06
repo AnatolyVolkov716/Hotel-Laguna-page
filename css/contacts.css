@@ -1,0 +1,165 @@
+.section-contacts {
+  margin-bottom: 19px;
+  padding-top: 35px;
+}
+
+.section-contacts__container {
+  flex-direction: column;
+}
+
+.contacts__heading {
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.section-contacts__descr {
+  margin: 0;
+  padding: 44px 44px;
+  border-radius: 15px;
+  background-color: #fff;
+  background-image: url(../img/contacts_img.jpg);
+  background-repeat: no-repeat;
+  background-position: 471px center;
+  background-size: 653px 528px;
+}
+
+.section-contacts__list {
+  margin-bottom: 45px;
+}
+
+.contacts-item__header {
+  margin-right: 23px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.contacts-item__address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.section-contacts__item {
+  margin: 0;;
+  padding-bottom: 23px;
+  max-width: 375px;
+  align-items: flex-start;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.section-contacts__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.contacts__tel {
+  flex-direction: column;
+}
+
+.contacts-item__mail {
+  flex-direction: column;
+}
+
+.contacts__link:focus {
+  color: var(--color);
+  outline: 1px solid #CC9933;
+}
+
+.contacts__link:hover {
+  color: #E9C379;
+  outline: none;
+}
+
+.contacts__link:active {
+  color: #A47312;
+  outline: none;
+}
+
+.mail-link {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color);
+}
+
+.mail-link:focus {
+  color: var(--color);
+  outline: 1px solid #CC9933;
+}
+
+.mail-link:hover {
+  color: #E9C379;
+  outline: none;
+}
+
+.mail-link:active {
+  color: #A47312;
+  outline: none;
+}
+
+.mail-descr {
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: #999999;
+}
+
+.contacts__chart{
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.contacts__btn {
+  padding: 27px 29px;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--color);
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+}
+
+.contacts__btn:focus,
+.contacts__btn:hover {
+  color: #fff;
+  background: #CC9933;
+  outline: none;
+  transition: background 0.5s, color 0.5s;
+}
+
+.contacts__btn:active {
+  color: #fff;
+  background: #A47312;
+  outline: none;
+  transition: background 0.5s, color 0.5s;
+}
+
+.contacts__table {
+  max-width: 375px;
+  margin-bottom: 45px;
+  border-collapse: collapse
+}
+
+.table__header {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 23px;
+  text-align: left;
+  width: 145px;
+  vertical-align: text-top;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.table__item {
+  max-width: 230px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.table__content {
+  width: 235px;
+  padding-top: 25px;
+  padding-bottom: 23px;
+
+}

@@ -1,0 +1,57 @@
+.section-tour {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding: 0 30px;
+}
+
+.select__container {
+  margin-bottom: 35px;
+  background-color: #E9E9E9;
+  padding-top: 38px;
+  padding-bottom: 71px;
+  border-radius: 15px;
+}
+
+.select__header {
+  margin: 0;
+  margin-bottom: 19px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.select__form {
+  margin: 0;
+  padding: 28px 28px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.select__block {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.select__block:not(:last-child) {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #e1e1e1;
+}
+
+.select__block-header {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.select__city,
+.select__country,
+.select__date {
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  border: none;
+}

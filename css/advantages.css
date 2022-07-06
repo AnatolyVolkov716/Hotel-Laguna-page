@@ -1,0 +1,66 @@
+.section-advantages {
+  margin-bottom: 35px;
+  padding-top: 35px;
+}
+
+.section-advantages__list {
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.section-advantages__item {
+  width: 275px;
+  margin-bottom: 23px;
+  flex-shrink: 0;
+  padding-top: 116px ;
+  padding-left: 45px;
+  padding-right: 42px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;;
+  background-position: 45px 40px;
+  background-repeat: no-repeat;
+  background-size: 64px 66px;
+}
+
+.section-advantages__item:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+
+.section-advantages__paragraph {
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
+}
+
+.section-advantages__icon-bathtub {
+  background-image: url('../img/advantages-icon-1.svg');
+}
+
+.section-advantages__icon-hanger {
+  background-image: url('../img/advantages-icon-2.svg');
+}
+
+.section-advantages__icon-heating {
+  background-image: url('../img/advantages-icon-3.svg');
+}
+
+.section-advantages__icon-hotel {
+  background-image: url('../img/advantages-icon-4.svg');
+}
+
+.section-advantages__icon-parking {
+  background-image: url('../img/advantages-icon-5.svg');
+}
+
+.section-advantages__icon-reception {
+  background-image: url('../img/advantages-icon-6.svg');
+}
+
+.section-advantages__icon-security {
+  background-image: url('../img/advantages-icon-7.svg');
+}
+
+.section-advantages__icon-pool {
+  background-image: url('../img/advantages-icon-8.svg');
+}
